@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
+    <nav>
+      <div class="nav-wrapper teal" style="padding-left: 10px;">
+         <a href="#!" class="brand-logo">Ajax Demo</a>
+      </div>
+  </nav>
+  <main class="row" style="padding: 40px">
+    <table>
+      <thead>
+           <tr>
+              <th>#</th>
+              <th>name</th>
+              <th>Type</th>
+              <th>website</th>
+           </tr>
+           </thead>
+             <tbody id="result">
+                                           
+             </tbody>
+      </table>
+</main>
     <h1>My Page</h1>
 
     <input type="button" id="alertBtn" value="alert" onclick="alertFun()"/>
